@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trope Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <h1>Trope Clothing</h1>
+        <p>Unleash Your Inner Artist</p>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Welcome to Trope Clothing</h2>
+            <p>Discover the joy of creating your own unique hoodie with our customizable Trope Hoodies.</p>
+            <button onclick="window.location.href='products.html'">Shop Now</button>
+        </section>
+        <section class="gallery">
+            <h2>Featured Designs</h2>
+            <div class="gallery-images">
+                <img src="hoodie1.jpg" alt="Trope Hoodie Design 1">
+                <img src="hoodie2.jpg" alt="Trope Hoodie Design 2">
+                <img src="hoodie3.jpg" alt="Trope Hoodie Design 3">
+            </div>
+        </section>
+        <section class="benefits">
+            <h2>Benefits of Customization</h2>
+            <ul>
+                <li>Express your creativity and individuality.</li>
+                <li>High-quality materials and durable designs.</li>
+                <li>Join a community of like-minded artists.</li>
+            </ul>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <p>"Trope Hoodies have allowed me to showcase my art in a unique way!" - Alex P.</p>
+            <p>"I love the quality and the ability to create my own designs." - Jamie L.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trope Clothing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
